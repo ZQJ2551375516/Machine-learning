@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/5/24 10:29:39。
+     1>项目“C:\Users\qinjie\Desktop\vctest\vctest\vctest\vctest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\vctest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         e:\vs2010\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\qinjie\Desktop\vctest\vctest\Debug\vctest.exe" /INCREMENTAL /NOLOGO opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410d.lib /MANIFEST /ManifestFile:"Debug\vctest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\qinjie\Desktop\vctest\vctest\Debug\vctest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\qinjie\Desktop\vctest\vctest\Debug\vctest.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Feature2D::compute(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat &)const " (?compute@Feature2D@cv@@QBEXABVMat@2@AAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AAV32@@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::drawKeypoints(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > const &,class cv::Mat &,class cv::Scalar_<double> const &,int)" (?drawKeypoints@cv@@YAXABVMat@1@ABV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@AAV21@ABV?$Scalar_@N@1@H@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::FeatureDetector::detect(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &,class cv::Mat const &)const " (?detect@FeatureDetector@cv@@QBEXABVMat@2@AAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@0@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::SIFT::SIFT(int,int,double,double,double)" (??0SIFT@cv@@QAE@HHNNN@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QAE@ABVMat@1@@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 _wmain 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: static class cv::Formatter const * __cdecl cv::Formatter::get(char const *)" (?get@Formatter@cv@@SAPBV12@PBD@Z)，该符号在函数 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl cv::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class cv::Mat const &)" (??6cv@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVMat@0@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall cv::Algorithm::~Algorithm(void)" (??1Algorithm@cv@@UAE@XZ)，该符号在函数 "public: void __thiscall cv::SIFT::`vbase destructor'(void)" (??_DSIFT@cv@@QAEXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UAE@XZ)，该符号在函数 "public: virtual __thiscall cv::Feature2D::~Feature2D(void)" (??1Feature2D@cv@@UAE@XZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall cv::DescriptorExtractor::~DescriptorExtractor(void)" (??1DescriptorExtractor@cv@@UAE@XZ)，该符号在函数 "public: virtual __thiscall cv::Feature2D::~Feature2D(void)" (??1Feature2D@cv@@UAE@XZ) 中被引用
+     1>C:\Users\qinjie\Desktop\vctest\vctest\Debug\vctest.exe : fatal error LNK1120: 14 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\qinjie\Desktop\vctest\vctest\vctest\vctest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.80
